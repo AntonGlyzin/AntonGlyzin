@@ -16,3 +16,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-gray.svg?style=flat&logo=html5&logoColor=orange) 
 ![CSS3](https://img.shields.io/badge/CSS3-gray.svg?style=flat&logo=css3&logoColor=orange) 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-6f42c1.svg?style=flat&logo=bootstrap&logoColor=white) 
+![FireBase](https://img.shields.io/badge/FireBase-grey.svg?style=flat&logo=firebase&logoColor=yellow) 
+![DialogFlow](https://img.shields.io/badge/DialogFlow-393d63.svg?style=flat&logo=dialogflow&logoColor=orange) 
+![Axios](https://img.shields.io/badge/Axios-5a29e4.svg?style=flat&logo=axios&logoColor=white) 
+![JQuery](https://img.shields.io/badge/JQuery-333.svg?style=flat&logo=jquery&logoColor=0769ad) 
