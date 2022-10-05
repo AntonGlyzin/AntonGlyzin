@@ -10,7 +10,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) 
 ![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=flat&logo=flask&logoColor=white) 
 ![Vue](https://img.shields.io/badge/Vue.js-6DA55F?style=flat&logo=vue.js&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat&logo=graphql&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) 
 ![Selenium](https://img.shields.io/badge/Selenium-1c4e63.svg?style=flat&logo=selenium&logoColor=green) 
 ![HTML5](https://img.shields.io/badge/HTML5-gray.svg?style=flat&logo=html5&logoColor=orange) 
