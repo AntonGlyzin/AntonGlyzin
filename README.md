@@ -1,24 +1,205 @@
-## 🌐 Социальные сети
-[![VK](https://img.shields.io/badge/Вконтакте-%230077B5.svg?logo=vk&logoColor=white)](https://vk.com/tosha.glyzin) 
-[![Telegram](https://img.shields.io/badge/Telegram-%230077B5.svg?logo=telegram&logoColor=white)](https://t.me/tosha_glyzin) 
+# 👋 Привет, я Антон Глызин
 
-## 💻 Навыки
-![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=flat&logo=django&logoColor=white) 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=%23F7DF1E) 
-![DjangoREST](https://img.shields.io/badge/Django-REST-ff1709?style=flat&logo=django&logoColor=white&color=ff1709&labelColor=gray) 
-![Wagtail](https://img.shields.io/badge/Wagtail-4B0082.svg?style=flat&logo=wagtail&logoColor=white) 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) 
-![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=flat&logo=flask&logoColor=white) 
-![Vue](https://img.shields.io/badge/Vue.js-6DA55F?style=flat&logo=vue.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) 
-![Selenium](https://img.shields.io/badge/Selenium-1c4e63.svg?style=flat&logo=selenium&logoColor=green) 
-![HTML5](https://img.shields.io/badge/HTML5-gray.svg?style=flat&logo=html5&logoColor=orange) 
-![CSS3](https://img.shields.io/badge/CSS3-gray.svg?style=flat&logo=css3&logoColor=orange) 
-![Bootstrap](https://img.shields.io/badge/Bootstrap-6f42c1.svg?style=flat&logo=bootstrap&logoColor=white) 
-![FireBase](https://img.shields.io/badge/FireBase-grey.svg?style=flat&logo=firebase&logoColor=yellow) 
-![DialogFlow](https://img.shields.io/badge/DialogFlow-393d63.svg?style=flat&logo=dialogflow&logoColor=orange) 
-![Axios](https://img.shields.io/badge/Axios-5a29e4.svg?style=flat&logo=axios&logoColor=white) 
-![JQuery](https://img.shields.io/badge/JQuery-333.svg?style=flat&logo=jquery&logoColor=0769ad) 
-![Docker](https://img.shields.io/badge/Docker-8ed1fc.svg?style=flat&logo=docker&logoColor=blue) 
-![SQLAlchemy](https://img.shields.io/badge/SQL-Alchemy-ff1709?style=flat&logo=postgresql&logoColor=white&color=ff1709&labelColor=gray) 
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat&logo=graphql&logoColor=white) 
+**Software Architect | Staff Python Engineer | Инфраструктурный разработчик**
+
+Я проектирую и создаю сложные, отказоустойчивые системы: от низкоуровневых сетевых протоколов до объектных построителей SQL-запросов и runtime-фреймворков. Моя экспертиза лежит на стыке **архитектуры**, **инфраструктуры** и **производительности**.
+
+Умею превращать сложные технические концепции в элегантный, переиспользуемый и хорошо документированный код.
+
+---
+
+### 🛠️ Технологический стек
+
+**Языки и ядро**
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=flat&logo=python&logoColor=white)
+![Asyncio](https://img.shields.io/badge/Asyncio-Advanced-4B8BBE?style=flat&logo=python&logoColor=white)
+![Multiprocessing](https://img.shields.io/badge/Multiprocessing-Advanced-306998?style=flat&logo=python&logoColor=white)
+
+**Данные и кеширование**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Advanced-4169E1?style=flat&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Advanced-003B57?style=flat&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-Advanced-DC382D?style=flat&logo=redis&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-Expert-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+
+**Сети и инфраструктура**
+![ZeroMQ](https://img.shields.io/badge/ZeroMQ-Expert-E01825?style=flat&logo=zeromq&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?style=flat&logo=githubactions&logoColor=white)
+
+**AI/ML**
+![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-Advanced-0081A5?style=flat&logo=openai&logoColor=white)
+
+---
+
+### 🚀 Ключевые проекты
+
+Ниже — мои собственные open-source библиотеки и фреймворки.
+
+<details open>
+  <summary><b>📦 CORMless — Объектный построитель SQL-запросов без ORM</b></summary>
+  <br>
+  <blockquote>
+    <p>Библиотека для безопасного построения сложных SQL-запросов в объектном стиле. 
+    Главная особенность — <b>полное отсутствие моделей</b>. Создана для сценариев, 
+    где классические ORM избыточны, но писать сырой SQL небезопасно.</p>
+  </blockquote>
+
+  **Архитектурные особенности:**
+  *   🧩 **Собственный DSL:** Объектное представление `SELECT`, `JOIN`, `WHERE`, `GROUP BY`, `HAVING`, функций SQL.
+  *   ⚡ **Синхронность и асинхронность:** Единый API для `sync` и `async` с поддержкой `PostgreSQL` и `SQLite`.
+  *   💾 **Многоуровневое кеширование:** Встроенный in-memory кеш и распределенный кеш на **Redis** с логикой инвалидации по тегам таблиц.
+  *   🔒 **Безопасность:** Ручная реализация параметризованных запросов для защиты от SQL-инъекций.
+
+  **Стек:** `Python 3.9+`, `asyncio`, `asyncpg`, `psycopg2`, `aiosqlite`, `redis`, `aiocache`.
+
+  [![Read the Docs](https://img.shields.io/badge/Read_the_Docs-8CA1AF?style=for-the-badge&logo=readthedocs&logoColor=white)](https://query-tables.readthedocs.io/ru/latest)
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AntonGlyzin/query_tables)
+  [![PyPI](https://img.shields.io/badge/PyPI-package-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/query-tables/)
+</details>
+
+<details>
+  <summary><b>📨 Mail Pigeon — Отказоустойчивая шина данных на ZeroMQ</b></summary>
+  <br>
+  <blockquote>
+    <p>Асинхронная клиент-серверная библиотека для надежного обмена сообщениями 
+    между микросервисами. Реализует гарантированную доставку (At-Least-Once) 
+    с персистентной файловой очередью при обрывах связи.</p>
+  </blockquote>
+
+  **Архитектурные особенности:**
+  *   🏗️ **Брокер на ZeroMQ:** Реализация топологии `ROUTER`-`DEALER`.
+  *   💪 **Гарантированная доставка:** Подтверждения получения и автоматический повтор отправки из очереди.
+  *   🔄 **Автоматический Failover:** Клиенты могут автоматически запускать резервный сервер переадресации.
+  *   🔐 **Продвинутая безопасность:** Поддержка `CurveZMQ` (аутентификация канала) и сквозное шифрование (`HMAC`).
+
+  **Стек:** `Python 3.9+`, `PyZMQ`, `asyncio`, `cryptography`, `anyio`.
+
+  [![Read the Docs](https://img.shields.io/badge/Read_the_Docs-8CA1AF?style=for-the-badge&logo=readthedocs&logoColor=white)](https://mail-pigeon.readthedocs.io/ru/stable)
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AntonGlyzin/mail_pigeon)
+  [![PyPI](https://img.shields.io/badge/PyPI-package-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/mail-pigeon/)
+</details>
+
+<details>
+  <summary><b>🧠 Neuro Evolution — Микрофреймворк для параллельного обучения AI-агентов</b></summary>
+  <br>
+  <blockquote>
+    <p>Расширяемый фреймворк для обучения агентов в средах Gymnasium с помощью 
+    нейроэволюции (генетический алгоритм + нейронные сети). Проект демонстрирует 
+    проектирование сложных многопроцессорных приложений с GUI.</p>
+  </blockquote>
+
+  **Архитектурные особенности:**
+  *   ⚙️ **Собственная runtime-система:** Фреймворк для создания и управления подпроцессами (`RootService` / `ServiceBase`).
+  *   🧬 **Динамическая регистрация классов:** Плагинная система для добавления новых окружений `gymnasium`.
+  *   🖥️ **Разделение UI и вычислений:** Вычислительная нагрузка вынесена в отдельные процессы, UI на `wxPython` не блокируется.
+  *   📦 **Продакшен-сборка:** Автоматическая сборка `.exe` через `PyInstaller` и CI/CD (GitHub Actions).
+
+  **Стек:** `Python 3.11`, `PyTorch`, `Gymnasium`, `DEAP`, `wxPython`, `Multiprocessing`.
+
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AntonGlyzin/neuro_evolution)
+  [![Download EXE](https://img.shields.io/badge/Download-EXE-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AntonGlyzin/neuro_evolution/releases/latest)
+</details>
+
+---
+
+### 🧩 Прикладные проекты
+
+Ниже представлены проекты в веб-разработке, построении real-time приложений и автоматизации бизнес-процессов.
+
+<details>
+  <summary><b>🧩 Puzzle — Социальная сеть для разработчиков (Full-Stack)</b></summary>
+  <br>
+  <blockquote>
+    <p>Полноценная социальная платформа для создания портфолио, ведения блога и нетворкинга.</p>
+  </blockquote>
+
+  **Ключевые особенности:**
+  *   **Бэкенд:** **Django REST Framework** + **Django Channels** для WebSockets (чат, real-time нотификации).
+  *   **Фронтенд:** **Vue 3** (Composition API) + **Vuex** + **PrimeVue**. Кастомные директивы для ленивой загрузки.
+  *   **Архитектура:** Generic Relations для лайков/просмотров, интеграция с Telegram-ботом для активации пользователей.
+
+  **Стек:** `Python`, `Django`, `DRF`, `Django Channels`, `PostgreSQL`, `Vue 3`, `WebSockets`.
+
+  [![Backend Repo](https://img.shields.io/badge/Backend-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AntonGlyzin/puzzle-chats)
+  [![Frontend Repo](https://img.shields.io/badge/Frontend-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AntonGlyzin/portfolio-puzzle)
+</details>
+
+<details>
+  <summary><b>🛒 FastShop — Гибридный интернет-магазин</b></summary>
+  <br>
+  <blockquote>
+    <p>Экспериментальный проект, объединяющий <b>FastAPI</b> (API для покупателей) и <b>Django Admin</b> 
+    (панель управления) в рамках одного приложения.</p>
+  </blockquote>
+
+  **Ключевые особенности:**
+  *   **Гибридная архитектура:** Связка ASGI (FastAPI) и WSGI (Django Admin) в одном проекте.
+  *   **Глубокая кастомизация:** Расширение Django Admin (вычисляемые поля, кастомные шаблоны `change_list.html`).
+  *   **Бизнес-логика:** Управление корзиной, заказами, JWT-авторизация, email-уведомления.
+
+  **Стек:** `FastAPI`, `Django`, `PostgreSQL`, `SQLAlchemy`, `Pydantic`, `JWT`, `Docker`.
+
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AntonGlyzin/back_fastshop)
+</details>
+
+<details>
+  <summary><b>🏀 Sportsite — Платформа на Wagtail CMS</b></summary>
+  <br>
+  <blockquote>
+    <p>Продающий лендинг с блогом, построенный на фреймворке <b>Wagtail</b> (Django CMS). Проект следует лучшим практикам сообщества Wagtail.</p>
+  </blockquote>
+
+  **Ключевые особенности:**
+  *   **Wagtail Best Practices:** Использование `StreamField`, `Snippets`, `RoutablePageMixin`, `SeoMixin`.
+  *   **Полный функционал:** Комментарии (`django-comments-xtd`), мультиязычность (`modeltranslation`), контактная форма с ReCaptcha.
+  *   **Интеграции:** Кастомное хранилище для Google Firebase Storage.
+
+  **Стек:** `Django`, `Wagtail CMS`, `PostgreSQL`, `Docker`.
+
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AntonGlyzin/wagtail-sportsite)
+</details>
+
+<details>
+  <summary><b>🤖 MyShopBot — E-commerce платформа в Telegram</b></summary>
+  <br>
+  <blockquote>
+    <p>Полноценный магазин внутри Telegram-бота. Реализована сложная логика состояний для навигации по каталогу, 
+    управления корзиной и оформления заказов.</p>
+  </blockquote>
+
+  **Ключевые особенности:**
+  *   **Finite State Machine:** Управление диалогами через `register_next_step_handler`.
+  *   **Архитектура:** Четкое разделение на `handlers`, `models`, `filters`, `buttons`.
+  *   **ORM и миграции:** Использование `SQLAlchemy` и `Alembic`.
+
+  **Стек:** `Python`, `PyTelegramBotAPI`, `SQLAlchemy`, `Alembic`, `SQLite`.
+
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AntonGlyzin/myshopbot)
+</details>
+
+---
+
+### 📊 GitHub статистика
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=AntonGlyzin&theme=radical&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D&mode=weekly&background=0D1117&stroke=00D1B2&ring=00D1B2&fire=FF4500&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00D1B2&sideLabels=FFFFFF&dates=8B949E)](https://git.io/streak-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AntonGlyzin&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D1B2&text_color=FFFFFF&langs_count=6)](https://github.com/AntonGlyzin)
+
+</div>
+
+---
+
+### 💬 Обо мне как о разработчике
+
+> "Я не просто пользуюсь фреймворками, я создаю их. Моя страсть — решать сложные архитектурные и инфраструктурные задачи, превращая их в элегантные и переиспользуемые библиотеки. Могу быстро разобраться в чужом коде и найти нестандартное решения для выявленной проблемы."
+
+---
+
+### 📫 Контакты
+
+*   **Email:** [tosha.glyzin@mail.ru](mailto:tosha.glyzin@mail.ru)
+*   **Telegram:** [@tosha_glyzin](https://t.me/tosha_glyzin)
+*   **VK:** [Вконтакте](https://vk.com/tosha.glyzin)
