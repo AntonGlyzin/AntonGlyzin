@@ -12,23 +12,55 @@
 
 **Языки и ядро**
 ![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=flat&logo=python&logoColor=white)
-![Asyncio](https://img.shields.io/badge/Asyncio-Advanced-4B8BBE?style=flat&logo=python&logoColor=white)
-![Multiprocessing](https://img.shields.io/badge/Multiprocessing-Advanced-306998?style=flat&logo=python&logoColor=white)
+![Asyncio](https://img.shields.io/badge/Asyncio-Expert-4B8BBE?style=flat&logo=python&logoColor=white)
+![Multiprocessing](https://img.shields.io/badge/Multiprocessing-Expert-306998?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-**Данные и кеширование**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Advanced-4169E1?style=flat&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-Advanced-003B57?style=flat&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-Advanced-DC382D?style=flat&logo=redis&logoColor=white)
+**Бэкенд-фреймворки**
+![Django](https://img.shields.io/badge/Django-Expert-092E20?style=flat&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-Expert-A30000?style=flat&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Advanced-009688?style=flat&logo=fastapi&logoColor=white)
+![Wagtail](https://img.shields.io/badge/Wagtail_CMS-Advanced-43B1B0?style=flat&logo=wagtail&logoColor=white)
+![Django Channels](https://img.shields.io/badge/Django_Channels-Advanced-1B1B1B?style=flat&logo=django&logoColor=white)
+
+**Фронтенд**
+![Vue 3](https://img.shields.io/badge/Vue_3-Advanced-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![Vuex](https://img.shields.io/badge/Vuex-Advanced-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![PrimeVue](https://img.shields.io/badge/PrimeVue-Advanced-06C?style=flat&logo=primevue&logoColor=white)
+![Dojo Toolkit](https://img.shields.io/badge/Dojo_Toolkit-Intermediate-E0672F?style=flat&logo=dojo&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-Advanced-0769AD?style=flat&logo=jquery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-Advanced-7952B3?style=flat&logo=bootstrap&logoColor=white)
+
+**Базы данных и ORM**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Expert-4169E1?style=flat&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Expert-003B57?style=flat&logo=sqlite&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-Expert-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-Advanced-6E4C1E?style=flat&logo=alembic&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-Advanced-DC382D?style=flat&logo=redis&logoColor=white)
 
-**Сети и инфраструктура**
+**Сети, очереди и инфраструктура**
 ![ZeroMQ](https://img.shields.io/badge/ZeroMQ-Expert-E01825?style=flat&logo=zeromq&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Intermediate-2496ED?style=flat&logo=docker&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-Expert-010101?style=flat&logo=socketdotio&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Advanced-2496ED?style=flat&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-Intermediate-009639?style=flat&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-Intermediate-D22128?style=flat&logo=apache&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?style=flat&logo=githubactions&logoColor=white)
 
-**AI/ML**
+**AI/ML и научные вычисления**
 ![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Gymnasium](https://img.shields.io/badge/Gymnasium-Advanced-0081A5?style=flat&logo=openai&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Advanced-013243?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Intermediate-11557C?style=flat&logo=python&logoColor=white)
+![DEAP](https://img.shields.io/badge/DEAP-Intermediate-000000?style=flat&logo=python&logoColor=white)
+
+**Telegram Bot API**
+![Telegram Bot API](https://img.shields.io/badge/Telegram_Bot_API-Expert-26A5E4?style=flat&logo=telegram&logoColor=white)
+![Dialogflow](https://img.shields.io/badge/Dialogflow-Intermediate-FF9800?style=flat&logo=dialogflow&logoColor=white)
+
+**Безопасность**
+![JWT](https://img.shields.io/badge/JWT-Advanced-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![OAuth2](https://img.shields.io/badge/OAuth2-Advanced-3C3C3D?style=flat&logo=auth0&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-Advanced-5522FA?style=flat&logo=letsencrypt&logoColor=white)
 
 ---
 
